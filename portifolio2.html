@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+        <link rel="stylesheet" href="portifolio2.css">
+        <title>José Lucio</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="https://twitter.com/i/status/1625621835059458048"><img src="JL LIGHT.svg" alt="Logo em tons claros" id="logo-barra"></a></li>
+                <li><span class="blink">| </span><a href="#about-me">about me</a></li> 
+                <li><span class="blink">| </span><a href="#contat">contact me</a></li>
+                 <li><a href="#cv" class="cv">Resume</a></li>
+            </ul>
+          </nav>
+          <img src="scrolldown.svg" id="scrolldown" class="scrolldown">
+                  
+      <div class="mountain">
+        <div class="logo-container">
+            <img src="JL LIGHT.svg" id="logo" class="imagesvg">
+            <p class="bebastext">José Lucio</p>
+        </div>
+      </div>
+      
+      <div id="particles-js" class="partic"></div>
+         <div class="background-color-2">
+            
+             <div class="box"> <h2 class="pg1">Hi, my name is
+                 <span class="name">José Lucio</span>
+             </h2>
+                 <p class="txt"> I am a beginner in programming, currently with skills in HTML, CSS, JavaScript, Python, and UI/UX design. Since I started learning how to code, I have discovered a passion for creating creative using technology.</p>
+                
+                 <div class="socialmedia"> <!---- linkssss -->
+                    <img src="Group 7.svg"> 
+                    <a href="https://instagram.com/muchilista?igshid=ZDdkNTZiNTM=" target="_blank"><img src="insta.svg" class="insta"> </a>
+                    <a href="https://t.me/La_Muerte" target="_blank" ><img src="teleg.svg" class="telegram"></a>
+                    <a href="https://twitter.com/La_Muertx" target="_blank" ><img src="TWT.svg" class="twt"> </a> 
+                </div>
+              </div> 
+              <div class="aboutme" id="about-me">
+                  <img src="aboutme.svg" class="abtsvg">
+                  <p class="abtxt"> I am José Lucio Otaviano, a technology and programming enthusiast with skills in HTML, CSS, JavaScript, Python, and UI/UX design. I am a beginner in the field but always looking for opportunities to improve my skills and create innovative solutions. I am interested in other technology-related areas like artificial intelligence and data science. Outside of technology, I enjoy sports, movies, and exploring new places and cultures.</p>
+              </div>
+
+              <div class="contactme" id="contat">
+                    <img src="contact.svg" class="zap">
+                    <br>
+                    <a href="https://whatsa.me/5544984396462/?t=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20seu%20portfolio!" class="button">Coé mano?</a>
+                </div>
+            </div>
+            </div>
+      
+   
+    
+
+    
+    
+    
+    
+   
+   
+
+            
+        <script>
+            window.addEventListener('scroll', function() {
+                const scrollDownImg = document.getElementById('scrolldown');
+                const scrollUpImg = document.getElementById('scrollup');
+                const scrollPosition = window.scrollY + window.innerHeight;
+                const pageHeight = document.documentElement.scrollHeight;
+                if (scrollPosition >= pageHeight * 0.98) {
+                    scrollDownImg.classList.remove('scroll-down');
+                } else {
+                    scrollDownImg.classList.add('scroll-down');
+                }
+            });
+        
+            setTimeout(function() {
+                const scrollDownImg = document.getElementById('scrolldown');
+                scrollDownImg.classList.add('scroll-down');
+            }, 2000);
+        </script>
+        
+   
+</body>
+</html>
